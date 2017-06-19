@@ -1,3 +1,5 @@
+//simple use of arithmetic operation
+
 import java.util.Scanner;
 import java.math.*;
 
@@ -5,8 +7,11 @@ public class Arithmetic {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        System.out.println("Enter meal cost");
         double mealCost = scan.nextDouble(); // original meal price
+        System.out.println("Enter tip percentage");
         int tipPercent = scan.nextInt(); // tip percentage
+        System.out.println("Enter tax percentage");
         int taxPercent = scan.nextInt(); // tax percentage
         scan.close();
       
